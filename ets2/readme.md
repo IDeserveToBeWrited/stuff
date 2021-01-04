@@ -1,0 +1,1 @@
+Exctract all .scs files using SCS provided extractor
