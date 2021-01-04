@@ -1,0 +1,20 @@
+, , , na ,
+, , na ,
+g_currentModName ~= "pdlc na g_currentModName ~= "FS19_
+if not isDlc na if isDlc
+
+
+experi
+if not isDlc or g_currentModName ~= na if not not isDlc or g_currentModName =
+
+
+
+
+if isDlc and g_currentModName == "pdlc
+if not isDlc and g_currentModName ~= "pdlc
+
+if not isDlc or g_currentModName ~= "pdlc
+if isDlc or g_currentModName == "pdlc
+
+if (isDlc or g_currentModName ~= "pdlc
+if (not isDlc or g_currentModName == "pdlc

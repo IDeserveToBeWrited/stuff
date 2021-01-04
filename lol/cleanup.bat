@@ -1,0 +1,1 @@
+FOR /D %%g IN (Tools\Decoding\FS19_*) DO (del /f/s/q %%g > nul & rmdir /s/q %%g)

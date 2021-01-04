@@ -1,0 +1,5 @@
+1. Use quickbms with the script in this folder
+2. Open the fsb file with fsb_aud_extr.exe (or fmod_extr.exe if it doesn't work)
+
+Note: the executables require the .dll files to run correctly.
+
