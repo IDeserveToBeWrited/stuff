@@ -1,0 +1,38 @@
+SiiNunit
+{
+accessory_engine_data : d16_700.volvo.vnl.engine
+{
+	name: "Volvo D16 600"
+	price: 51730
+	unlock: 16
+	info[]: "600 @@hp@@ (447@@kw@@)"
+	info[]: "2@@dg@@050 @@lb_ft@@ (2779@@nm@@)"
+	info[]: "1@@dg@@050 @@rpm@@"
+
+	icon: "engine_volvo_d16"
+
+	torque: 29999
+	volume: 16.1
+
+	torque_curve[]: (300, 0)
+	torque_curve[]: (500, 0.5)
+	torque_curve[]: (1000, 1)
+	torque_curve[]: (1550, 1)
+	torque_curve[]: (1800, 0.86)
+	torque_curve[]: (1950, 0.73)
+	torque_curve[]: (2000, 0.63)
+	torque_curve[]: (2400, 0)
+
+	rpm_idle: 600
+	rpm_limit: 3000
+	rpm_range_low_gear: (750, 1500)
+	rpm_range_high_gear: (1000, 1400)
+	rpm_range_power: (1350, 1850)
+
+	engine_brake: 2.0
+	engine_brake_downshift: 0
+	engine_brake_positions: 3
+
+@include "/def/vehicle/truck/volvo.vnl/engine/sound.sui"
+}
+}

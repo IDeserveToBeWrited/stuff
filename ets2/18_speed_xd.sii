@@ -1,0 +1,40 @@
+SiiNunit
+{
+accessory_transmission_data : 18_speedxd.volvo.vnl.transmission
+{
+	name: "Eaton FO-22E318B-VXP"
+	price: 11120
+	unlock: 9
+	icon: "transmission_eaton_ultrashift"
+
+	# UltraShift PLUS MXP
+
+	differential_ratio: 3.25
+
+	ratios_reverse[0]: -15.06									# ratios_reverse[0]: -15.06
+	ratios_reverse[1]: -12.85                                   # ratios_reverse[1]: -12.85
+	ratios_reverse[2]: -4.03                                    # ratios_reverse[2]: -4.03
+	ratios_reverse[3]: -3.43                                    # ratios_reverse[3]: -3.43
+																# 
+	ratios_forward[0]: 1.62                                    # ratios_forward[0]: 14.40
+	ratios_forward[1]: 1.38                                    # ratios_forward[1]: 12.29
+	ratios_forward[2]: 1.17                                     # ratios_forward[2]: 8.51
+	ratios_forward[3]: 1.0                                    # ratios_forward[3]: 7.26
+	ratios_forward[4]: 0.86                                     # ratios_forward[4]: 6.05
+	ratios_forward[5]: 0.73                                     # ratios_forward[5]: 5.16
+	ratios_forward[6]: 0.7                                     # ratios_forward[6]: 4.38
+	ratios_forward[7]: 0.6                                     # ratios_forward[7]: 3.74
+	ratios_forward[8]: 0.5                                      # ratios_forward[8]: 3.2
+	ratios_forward[9]: 0.4                                     # ratios_forward[9]: 2.73
+	ratios_forward[10]: 0.3                                    # ratios_forward[10]: 2.28
+	ratios_forward[11]: 0.2                                    # ratios_forward[11]: 1.94
+	ratios_forward[12]: 0.1                                    # ratios_forward[12]: 1.62
+	ratios_forward[13]: 0.01                                    # ratios_forward[13]: 1.38
+	ratios_forward[14]: 0.001                                    # ratios_forward[14]: 1.17
+	ratios_forward[15]: 0.0001                                     # ratios_forward[15]: 1.0
+	ratios_forward[16]: 0.00001                                    # ratios_forward[16]: 0.86
+	ratios_forward[17]: 0.000001									# ratios_forward[17]: 0.73
+
+@include "/def/vehicle/truck/volvo.vnl/transmission/sound.sui"
+}
+}
