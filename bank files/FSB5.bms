@@ -1,0 +1,62 @@
+for
+    findloc OFFSET string "FSB" 0 ""
+    if OFFSET == ""
+        cleanexit
+    endif
+    goto OFFSET
+    getdstring FSB_SIGN 3
+    get FSB_VER byte
+    get DUMMY long
+    get HEADER_SIZE long
+    get DATA_SIZE long
+   if FSB_VER == '5'
+      getdstring FSB_SIGN 4
+      get VERSION long
+      get TOTALSAMPLES long
+      get SHDRSIZE long
+      get NAMESIZE long
+      get DATASIZE long
+      xmath SIZE "0x3c + SHDRSIZE + NAMESIZE + DATASIZE"
+    elif FSB_VER == '4'
+        math SIZE = 0x30
+    elif FSB_VER == '3'
+        math SIZE = 0x18
+    elif FSB_VER == '2'
+        math SIZE = 0x10
+    elif FSB_VER == '1'
+        math SIZE = 0x10
+        math DATA_SIZE = HEADER_SIZE
+        math HEADER_SIZE = 0
+    else
+        #print "FSB version %FSB_VER% not supported"
+        #cleanexit
+        math SIZE = -1
+    endif
+    if SIZE == -1
+        math SIZE = 4
+    else
+        math SIZE += HEADER_SIZE
+        math SIZE += DATA_SIZE
+      callfunction GET_NAME 1
+        log NAME OFFSET SIZE
+    endif
+    math OFFSET += SIZE
+    goto OFFSET
+next
+
+startfunction GET_NAME
+   if FSB_VER != '5'
+      if DUMMY == 1
+         xmath NAME_OFFSET "OFFSET + 0x32"
+         goto NAME_OFFSET
+         savepos TMP
+         getdstring NAME 0x1e
+         string NAME += ".fsb"
+         goto TMP
+      else
+         set NAME string ""
+      endif
+   else
+      break   # I don`t have any FSB5 files at the moment
+   endif
+endfunction

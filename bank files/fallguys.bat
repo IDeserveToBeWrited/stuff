@@ -1,7 +1,7 @@
 @echo off
 title Command Repeating Batch File
 echo unpack
-FOR /R "C:\Program Files (x86)\Steam\steamapps\common\Fall Guys\FallGuys_client_game_Data\StreamingAssets" %%b IN (*.bank) DO ("quickbms.exe" -Y Script.bms "%%b" "C:\Users\doode\Desktop\fallguys2\%%~nb")
+FOR /R "C:\Program Files (x86)\Steam\steamapps\common\Fall Guys\FallGuys_client_game_Data\StreamingAssets\FMOD~" %%b IN (*.bank) DO ("quickbms.exe" -Y Script.bms "%%b" "C:\Users\doode\Desktop\fallguys2\%%~nb")
 echo copy
 for /D %%c in ("C:\Users\doode\Desktop\fallguys2\*") do (copy fmod_extr.exe "%%c" & copy fmodex.dll "%%c" & copy fmodL.dll "%%c" & copy fsb_aud_extr.exe "%%c")
 echo unaudio
