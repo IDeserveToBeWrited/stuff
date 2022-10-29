@@ -46,4 +46,4 @@ if __name__ == '__main__':
                         with open(destpath, 'wb') as dest:
                             f.seek(anl[1])
                             dest.write(f.read())
-                        print('{} -> {}'.format(os.path.join(root, name), destpath))
+                        #print('{} -> {}'.format(os.path.join(root, name), destpath))

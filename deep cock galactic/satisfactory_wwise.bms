@@ -1,0 +1,28 @@
+# Script for extracting audio from Satisfactory, from WwiseAudio\Media
+
+get NAME filename
+get FSIZE asize
+
+if NAME ext "uasset"
+	cleanexit
+elif NAME ext "ubulk"
+	callfunction SET_NAME 1
+	log NAME 0 FSIZE
+elif NAME ext "uexp"
+	goto 0x62
+	get SIZE long
+	if SIZE > FSIZE
+		cleanexit
+	else
+		callfunction SET_NAME 1
+		log NAME 0x72 SIZE
+	endif
+endif
+
+startfunction SET_NAME
+	string TMP = "wem/"
+	string NAME % "."
+	string TMP + NAME
+	string TMP + ".wem"
+	string NAME = TMP
+endfunction
