@@ -1,0 +1,2 @@
+@echo off
+for /r "C:\Users\doode\Downloads\umodel_win32\deep cock\" %%d in (.) do (FOR %%e IN ("%%~dd%%~pd%%~nd\*.ogg") DO ("ffmpeg.exe" -threads 8 -loglevel error -hide_banner -i "%%e" -acodec libmp3lame -q:a 0 -y "%%~de%%~pe%%~ne.mp3"))

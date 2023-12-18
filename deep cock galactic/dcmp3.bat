@@ -10,8 +10,8 @@ echo step 1 finished
 
 
 echo Del unpacked
-del /f/s/q "C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Content\Paks\Nowy folder" > nul
-rmdir /s/q "C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Content\Paks\Nowy folder" > nul
+rem del /f/s/q "C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Content\Paks\Nowy folder" > nul
+rem rmdir /s/q "C:\Program Files (x86)\Steam\steamapps\common\Deep Rock Galactic\FSD\Content\Paks\Nowy folder" > nul
 echo deleted unpacked
 
 set /A r=3
