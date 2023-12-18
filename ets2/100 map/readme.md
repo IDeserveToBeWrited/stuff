@@ -1,0 +1,1 @@
+get 100% map from edit_save_text map files
