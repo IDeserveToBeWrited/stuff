@@ -1,6 +1,11 @@
+## OP Tools
+- [Satisfactory Tools](https://www.satisfactorytools.com/1.0/production)
+- [SCIM Map](https://satisfactory-calculator.com/en/interactive-map)
+- [Wiki](https://satisfactory.wiki.gg/wiki/Satisfactory_Wiki)
+
 ## Balancers
 
- - Book of balancers by [/u/Crixomix](https://www.reddit.com/user/Crixomix)
+- Book of balancers by [/u/Crixomix](https://www.reddit.com/user/Crixomix)
 	 -  https://www.reddit.com/r/SatisfactoryGame/comments/b0bzq3/i_made_a_book_of_balancers_all_possibilities_up/
 	 - [imgur](https://imgur.com/a/satisfactory-balancers-TnomMFk)
 
