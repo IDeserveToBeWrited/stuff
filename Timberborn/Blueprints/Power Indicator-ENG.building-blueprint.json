@@ -1,0 +1,2059 @@
+{
+  "Size": {
+    "Item1": 15,
+    "Item2": 4
+  },
+  "Buildings": [
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 14,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 3,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "96910c24-d567-44ab-bb85-90570b0bb6cd"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 14,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 2,
+          "ComparisonMode": 0,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.5
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER METER BAT+"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "1c69c635-c16c-4dc6-a82a-2bf705dda37a"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 14,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery Charging"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.121568628,
+            "Y": 0.8,
+            "Z": 0.121568628,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "1c69c635-c16c-4dc6-a82a-2bf705dda37a",
+          "EntityIds": [
+            "1c69c635-c16c-4dc6-a82a-2bf705dda37a"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "2d9c9fa5-c309-4a27-9245-78b67e6ea927"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 13,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 3,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "8bf58ef0-f264-4270-b6ed-7ae701a98504"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 13,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 2,
+          "ComparisonMode": 1,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.5
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER METER BAT-"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "89a98f37-0518-4601-9daf-cd2325f67324"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 13,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery Discharging"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.9019608,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "89a98f37-0518-4601-9daf-cd2325f67324",
+          "EntityIds": [
+            "89a98f37-0518-4601-9daf-cd2325f67324"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "a155b42b-3914-474e-93f8-b552d6ad2ae9"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 12,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 2,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "d4143de1-4f24-4b8c-8414-8dce93d80b03"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 12,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 2,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.0
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 0"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "745035cb-f20a-4d36-a0bc-d400316fef26"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 12,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "745035cb-f20a-4d36-a0bc-d400316fef26",
+          "InputB": "1c8fb5fe-c44d-4796-a362-51e07de75a40",
+          "EntityIds": [
+            "745035cb-f20a-4d36-a0bc-d400316fef26",
+            "1c8fb5fe-c44d-4796-a362-51e07de75a40"
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 0"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "ea0f64c8-1bd8-4ea8-b72b-87c805c7d78e"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 12,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 0%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "ea0f64c8-1bd8-4ea8-b72b-87c805c7d78e",
+          "EntityIds": [
+            "ea0f64c8-1bd8-4ea8-b72b-87c805c7d78e"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "11d34ff7-cd3b-4533-8f0d-b4466576122a"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 11,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "f88cffc3-8f62-47af-99c7-168e1a37c2f0"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 11,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 0,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.049999997
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 5"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "1c8fb5fe-c44d-4796-a362-51e07de75a40"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 11,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "1c8fb5fe-c44d-4796-a362-51e07de75a40",
+          "InputB": "b27f21c0-648b-43db-b881-167f0f02dc2e",
+          "EntityIds": [
+            "1c8fb5fe-c44d-4796-a362-51e07de75a40",
+            "b27f21c0-648b-43db-b881-167f0f02dc2e"
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 5"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "9b719407-8be8-4d83-b5f3-605bd8aca84d"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 11,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 5%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.917647064,
+            "Y": 0.08235294,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "9b719407-8be8-4d83-b5f3-605bd8aca84d",
+          "EntityIds": [
+            "9b719407-8be8-4d83-b5f3-605bd8aca84d"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "cc617c1b-a754-4b34-bd8e-093b7120283a"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 10,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "52056f09-2ab3-4cec-a120-d072b49b1566"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 10,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 0,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.099999994
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 10"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "b27f21c0-648b-43db-b881-167f0f02dc2e"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 10,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "b27f21c0-648b-43db-b881-167f0f02dc2e",
+          "InputB": "e396cd5c-c7a3-4d7f-be26-873d5b4bfe54",
+          "EntityIds": [
+            "b27f21c0-648b-43db-b881-167f0f02dc2e",
+            "e396cd5c-c7a3-4d7f-be26-873d5b4bfe54"
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 10"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "5e7d1d6f-6651-4dcc-8c7c-c930695c423d"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 10,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 10%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.8352941,
+            "Y": 0.168627456,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "5e7d1d6f-6651-4dcc-8c7c-c930695c423d",
+          "EntityIds": [
+            "5e7d1d6f-6651-4dcc-8c7c-c930695c423d"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "c3ba5c4e-2a44-4f14-8d64-132c5e394f61"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 9,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 1,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "bb425f68-0997-48fd-bfdb-fa6c82f16d89"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 9,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 0,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.199999988
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 20"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "e396cd5c-c7a3-4d7f-be26-873d5b4bfe54"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 9,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "e396cd5c-c7a3-4d7f-be26-873d5b4bfe54",
+          "InputB": "15ea0ce4-78cc-4fd1-aecf-3059667fd5b9",
+          "EntityIds": [
+            "e396cd5c-c7a3-4d7f-be26-873d5b4bfe54",
+            "15ea0ce4-78cc-4fd1-aecf-3059667fd5b9"
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 20"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "423a075b-5a90-4fed-b67d-fc65e3f54639"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 9,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 20%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.7490196,
+            "Y": 0.2509804,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "423a075b-5a90-4fed-b67d-fc65e3f54639",
+          "EntityIds": [
+            "423a075b-5a90-4fed-b67d-fc65e3f54639"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "751c6b8e-4ee0-4bc9-b844-08f5665b770c"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 8,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 1,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "2fb27976-8a8a-4c90-bd9e-66c03e0002e8"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 8,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 0,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.299999982
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 30"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "15ea0ce4-78cc-4fd1-aecf-3059667fd5b9"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 8,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "15ea0ce4-78cc-4fd1-aecf-3059667fd5b9",
+          "InputB": "1c7959d2-c5e8-4bbf-b58a-a148dc761c7e",
+          "EntityIds": [
+            "15ea0ce4-78cc-4fd1-aecf-3059667fd5b9",
+            "1c7959d2-c5e8-4bbf-b58a-a148dc761c7e"
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 30"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "da609bbf-ab23-404e-b501-24c6f3659450"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 8,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 30%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.6666667,
+            "Y": 0.333333343,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "da609bbf-ab23-404e-b501-24c6f3659450",
+          "EntityIds": [
+            "da609bbf-ab23-404e-b501-24c6f3659450"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "65055a5b-ce85-451f-9c29-ce5af9d3eeee"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 7,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 1,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "2b4ca8cc-8216-4391-a579-041e915b861a"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 7,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 0,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.399999976
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 40"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "1c7959d2-c5e8-4bbf-b58a-a148dc761c7e"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 7,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "1c7959d2-c5e8-4bbf-b58a-a148dc761c7e",
+          "InputB": "cfcc49c5-b61e-4496-aced-e0c4fac0f26e",
+          "EntityIds": [
+            "1c7959d2-c5e8-4bbf-b58a-a148dc761c7e",
+            "cfcc49c5-b61e-4496-aced-e0c4fac0f26e"
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 40"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "be432a1f-2881-4467-9b8f-cafa0447fd37"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 7,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 40%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.58431375,
+            "Y": 0.41568628,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "be432a1f-2881-4467-9b8f-cafa0447fd37",
+          "EntityIds": [
+            "be432a1f-2881-4467-9b8f-cafa0447fd37"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "677e460b-9c05-4609-a709-6172a6a6704d"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 6,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 2,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "0e019eeb-eed3-4405-9872-7d41dbd559d1"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 6,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 0,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.5
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 50"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "cfcc49c5-b61e-4496-aced-e0c4fac0f26e"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 6,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "cfcc49c5-b61e-4496-aced-e0c4fac0f26e",
+          "InputB": "238bc8bf-fa7b-4cb0-adb8-6a0ea2127630",
+          "EntityIds": [
+            "cfcc49c5-b61e-4496-aced-e0c4fac0f26e",
+            "238bc8bf-fa7b-4cb0-adb8-6a0ea2127630"
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 50"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "44d34d25-327d-4e8f-a50c-90fe148d1dde"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 6,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 50%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.5019608,
+            "Y": 0.5019608,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "44d34d25-327d-4e8f-a50c-90fe148d1dde",
+          "EntityIds": [
+            "44d34d25-327d-4e8f-a50c-90fe148d1dde"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "d8bba70d-aac5-422c-a3b0-b7f8cf97df71"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 5,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 1,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "bd16f519-365c-42cd-b15f-a3cf1ed559df"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 5,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 0,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.599999964
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 60"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "238bc8bf-fa7b-4cb0-adb8-6a0ea2127630"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 5,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "238bc8bf-fa7b-4cb0-adb8-6a0ea2127630",
+          "InputB": "ac22f177-e171-4d6d-a8b7-39630acbc3ef",
+          "EntityIds": [
+            "238bc8bf-fa7b-4cb0-adb8-6a0ea2127630",
+            "ac22f177-e171-4d6d-a8b7-39630acbc3ef"
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 60"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "b0c96007-ee95-4434-bb33-e19129c98e2e"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 5,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 60%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.41568628,
+            "Y": 0.58431375,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "b0c96007-ee95-4434-bb33-e19129c98e2e",
+          "EntityIds": [
+            "b0c96007-ee95-4434-bb33-e19129c98e2e"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "20dfcf57-e2bd-4370-8238-174529bf05b7"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 4,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 1,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "fa9dea1d-db70-46e3-90ea-92ef44ba5e01"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 4,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 0,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.7
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 70"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "ac22f177-e171-4d6d-a8b7-39630acbc3ef"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 4,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "ac22f177-e171-4d6d-a8b7-39630acbc3ef",
+          "InputB": "370be4be-1653-4244-90e7-24456baf6bd2",
+          "EntityIds": [
+            "ac22f177-e171-4d6d-a8b7-39630acbc3ef",
+            "370be4be-1653-4244-90e7-24456baf6bd2"
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 70"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "a60bdce8-87cf-4cc8-9a03-7cc58547ff44"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 4,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 70%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.333333343,
+            "Y": 0.6666667,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "a60bdce8-87cf-4cc8-9a03-7cc58547ff44",
+          "EntityIds": [
+            "a60bdce8-87cf-4cc8-9a03-7cc58547ff44"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "5324c6d0-1078-48f0-a9cf-e833cce2ff89"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 3,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 1,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "e38d15b4-f1f2-42b3-8d48-b341a100b52a"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 3,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 0,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.799999952
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 80"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "370be4be-1653-4244-90e7-24456baf6bd2"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 3,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "370be4be-1653-4244-90e7-24456baf6bd2",
+          "InputB": "f694e90f-d292-4693-bc15-078153bbc1d8",
+          "EntityIds": [
+            "370be4be-1653-4244-90e7-24456baf6bd2",
+            "f694e90f-d292-4693-bc15-078153bbc1d8"
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 80"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "93b19ab8-b701-44e4-b910-1a5a7c165028"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 3,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 80%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.2509804,
+            "Y": 0.7490196,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "93b19ab8-b701-44e4-b910-1a5a7c165028",
+          "EntityIds": [
+            "93b19ab8-b701-44e4-b910-1a5a7c165028"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "46d69a7c-637c-4804-8535-05260e3df701"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 2,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 1,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "17d6f0c1-5498-46ff-aa64-f06af93920d2"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 2,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 0,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.9
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 90"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "f694e90f-d292-4693-bc15-078153bbc1d8"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 2,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "f694e90f-d292-4693-bc15-078153bbc1d8",
+          "InputB": "507e2938-97ea-4925-becd-1b4e6c218c89",
+          "EntityIds": [
+            "f694e90f-d292-4693-bc15-078153bbc1d8",
+            "507e2938-97ea-4925-becd-1b4e6c218c89"
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 90"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "954f5119-607c-4b61-8550-237c8b189c4f"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 2,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 90%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.164705887,
+            "Y": 0.8352941,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "954f5119-607c-4b61-8550-237c8b189c4f",
+          "EntityIds": [
+            "954f5119-607c-4b61-8550-237c8b189c4f"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "0b03d337-f4b3-4de1-8595-0ba71578b6b1"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 1,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 1,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "ba12be6b-0539-496b-96e9-36820c51b245"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 1,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 0,
+          "IntThreshold": 0,
+          "PercentThreshold": 0.95
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 95"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "507e2938-97ea-4925-becd-1b4e6c218c89"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 1,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "507e2938-97ea-4925-becd-1b4e6c218c89",
+          "InputB": "d7d331c0-ae7d-485e-991e-46824daa5e54",
+          "EntityIds": [
+            "507e2938-97ea-4925-becd-1b4e6c218c89",
+            "d7d331c0-ae7d-485e-991e-46824daa5e54"
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 95"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "094f0ec2-310c-4eea-b724-0192581ee012"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 1,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 95%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.08235294,
+            "Y": 0.917647064,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "094f0ec2-310c-4eea-b724-0192581ee012",
+          "EntityIds": [
+            "094f0ec2-310c-4eea-b724-0192581ee012"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "3f8fc939-572e-49fb-8841-660139fb4e94"
+    },
+    {
+      "TemplateName": "PowerShaft.IronTeeth",
+      "Coordinates": {
+        "Item1": 0,
+        "Item2": 0,
+        "Item3": 0
+      },
+      "Orientation": 1,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Wał"
+        }
+      },
+      "OriginalId": "4459c624-ae6f-43af-883b-85aef4b7d5d0"
+    },
+    {
+      "TemplateName": "PowerMeter.IronTeeth",
+      "Coordinates": {
+        "Item1": 0,
+        "Item2": 1,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.PowerMeter": {
+          "Mode": 3,
+          "ComparisonMode": 4,
+          "IntThreshold": 0,
+          "PercentThreshold": 1.0
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR 100"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "d7d331c0-ae7d-485e-991e-46824daa5e54"
+    },
+    {
+      "TemplateName": "Relay.IronTeeth",
+      "Coordinates": {
+        "Item1": 0,
+        "Item2": 2,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Relay": {
+          "Mode": 3,
+          "InputA": "d7d331c0-ae7d-485e-991e-46824daa5e54",
+          "InputB": null,
+          "EntityIds": [
+            "d7d331c0-ae7d-485e-991e-46824daa5e54",
+            null
+          ]
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "POWER MTR XOR 100"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": false,
+          "CustomColor": {
+            "X": 0.521568656,
+            "Y": 0.7411765,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "80ae59a9-ea3a-4679-bc12-5c3c48d58ab4"
+    },
+    {
+      "TemplateName": "Indicator.IronTeeth",
+      "Coordinates": {
+        "Item1": 0,
+        "Item2": 3,
+        "Item3": 0
+      },
+      "Orientation": 0,
+      "Flip": false,
+      "Settings": {
+        "Timberborn.Buildings.PausableBuilding": {
+          "Value": false
+        },
+        "Timberborn.AutomationBuildings.Indicator": {
+          "PinnedMode": 1,
+          "IsWarningEnabled": false,
+          "IsJournalEntryEnabled": false,
+          "IsColorReplicationEnabled": false
+        },
+        "CopyNameToo.Components.CopiableNameComponent": {
+          "Value": "Battery 100%"
+        },
+        "Timberborn.Illumination.CustomizableIlluminator": {
+          "IsCustomized": true,
+          "CustomColor": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0,
+            "W": 1.0
+          }
+        },
+        "Timberborn.Automation.Automatable": {
+          "EntityId": "80ae59a9-ea3a-4679-bc12-5c3c48d58ab4",
+          "EntityIds": [
+            "80ae59a9-ea3a-4679-bc12-5c3c48d58ab4"
+          ]
+        },
+        "Timberborn.BuilderPrioritySystem.BuilderPrioritizable": {
+          "Value": 2
+        }
+      },
+      "OriginalId": "5691533c-8a5c-4a2a-a6bb-07657ef5474f"
+    }
+  ],
+  "Tags": []
+}
